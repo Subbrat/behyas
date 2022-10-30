@@ -1,15 +1,27 @@
  @charset "UTF-8";
 
- * {
-     box-sizing: border-box;
- }
-
  body {
      animation: fadeInAnimation ease 1s;
      animation-iteration-count: 1;
      animation-fill-mode: forwards;
      font-family: Copperplate, Papyrus, fantasy;
      background: #000;
+ }
+
+ #headbar,
+ h1,
+ h2,
+ h3,
+ h4,
+ html {
+     font-family: Copperplate, Papyrus, fantasy;
+     font-weight: bold;
+     word-spacing: .3em;
+     letter-spacing: .1em;
+ }
+
+ * {
+     box-sizing: border-box;
  }
 
  @keyframes fadeInAnimation {
@@ -49,17 +61,6 @@
      width: auto
  }
 
- #headbar,
- h1,
- h2,
- h3,
- h4,
- html {
-     font-family: Copperplate, Papyrus, fantasy;
-     font-weight: bold;
-     word-spacing: .3em;
-     letter-spacing: .1em;
- }
 
  .column1 {
      float: left;
